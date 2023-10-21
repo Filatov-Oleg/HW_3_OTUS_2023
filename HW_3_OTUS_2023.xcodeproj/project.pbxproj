@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2622D22AE3D0420092FC6A /* InjectedWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2622D12AE3D0420092FC6A /* InjectedWrapper.swift */; };
+		1E2622D42AE3D3620092FC6A /* ServiceLocatorConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2622D32AE3D3620092FC6A /* ServiceLocatorConfiguration.swift */; };
+		1E2623082AE3E3A20092FC6A /* RentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2623072AE3E3A20092FC6A /* RentViewModel.swift */; };
+		1E26230F2AE3EE9C0092FC6A /* RentCarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E26230E2AE3EE9C0092FC6A /* RentCarModel.swift */; };
+		1E2623112AE3F0180092FC6A /* NetworkService in Frameworks */ = {isa = PBXBuildFile; productRef = 1E2623102AE3F0180092FC6A /* NetworkService */; };
+		1E6929C62ADDA33100286ED0 /* ServiceLoactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E6929C52ADDA33100286ED0 /* ServiceLoactor.swift */; };
+		1EBA40152AE413A100046CB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EBA40142AE413A100046CB2 /* Preview Assets.xcassets */; };
+		1EBA40182AE417A400046CB2 /* UserDefaultService in Frameworks */ = {isa = PBXBuildFile; productRef = 1EBA40172AE417A400046CB2 /* UserDefaultService */; };
 		1EFE9D442ACECDA900AF3E32 /* HW_3_OTUS_2023App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE9D432ACECDA900AF3E32 /* HW_3_OTUS_2023App.swift */; };
 		1EFE9D462ACECDA900AF3E32 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFE9D452ACECDA900AF3E32 /* ContentView.swift */; };
 		1EFE9D482ACECDAA00AF3E32 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE9D472ACECDAA00AF3E32 /* Assets.xcassets */; };
-		1EFE9D4B2ACECDAA00AF3E32 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFE9D4A2ACECDAA00AF3E32 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2622D12AE3D0420092FC6A /* InjectedWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InjectedWrapper.swift; sourceTree = "<group>"; };
+		1E2622D32AE3D3620092FC6A /* ServiceLocatorConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLocatorConfiguration.swift; sourceTree = "<group>"; };
+		1E2623072AE3E3A20092FC6A /* RentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentViewModel.swift; sourceTree = "<group>"; };
+		1E26230C2AE3EAB90092FC6A /* NetworkService */ = {isa = PBXFileReference; lastKnownFileType = text; path = NetworkService; sourceTree = SOURCE_ROOT; };
+		1E26230E2AE3EE9C0092FC6A /* RentCarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentCarModel.swift; sourceTree = "<group>"; };
+		1E6929C52ADDA33100286ED0 /* ServiceLoactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceLoactor.swift; sourceTree = "<group>"; };
+		1EBA40142AE413A100046CB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1EBA40162AE415CC00046CB2 /* UserDefaultService */ = {isa = PBXFileReference; lastKnownFileType = text; path = UserDefaultService; sourceTree = SOURCE_ROOT; };
 		1EFE9D402ACECDA900AF3E32 /* HW_3_OTUS_2023.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_3_OTUS_2023.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EFE9D432ACECDA900AF3E32 /* HW_3_OTUS_2023App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HW_3_OTUS_2023App.swift; sourceTree = "<group>"; };
 		1EFE9D452ACECDA900AF3E32 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1EFE9D472ACECDAA00AF3E32 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1EFE9D4A2ACECDAA00AF3E32 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +40,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EBA40182AE417A400046CB2 /* UserDefaultService in Frameworks */,
+				1E2623112AE3F0180092FC6A /* NetworkService in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E2623022AE3E0230092FC6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1E2623052AE3E3710092FC6A /* DependencyInjection */ = {
+			isa = PBXGroup;
+			children = (
+				1E6929C52ADDA33100286ED0 /* ServiceLoactor.swift */,
+				1E2622D12AE3D0420092FC6A /* InjectedWrapper.swift */,
+				1E2622D32AE3D3620092FC6A /* ServiceLocatorConfiguration.swift */,
+			);
+			path = DependencyInjection;
+			sourceTree = "<group>";
+		};
+		1E2623062AE3E3930092FC6A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E26230D2AE3EE910092FC6A /* Models */,
+				1E2623072AE3E3A20092FC6A /* RentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E26230D2AE3EE910092FC6A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1E26230E2AE3EE9C0092FC6A /* RentCarModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1EBA40132AE413A100046CB2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1EBA40142AE413A100046CB2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = SOURCE_ROOT;
+		};
 		1EFE9D372ACECDA900AF3E32 = {
 			isa = PBXGroup;
 			children = (
 				1EFE9D422ACECDA900AF3E32 /* HW_3_OTUS_2023 */,
 				1EFE9D412ACECDA900AF3E32 /* Products */,
+				1E2623022AE3E0230092FC6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,20 +110,16 @@
 		1EFE9D422ACECDA900AF3E32 /* HW_3_OTUS_2023 */ = {
 			isa = PBXGroup;
 			children = (
+				1EBA40132AE413A100046CB2 /* Preview Content */,
+				1EBA40162AE415CC00046CB2 /* UserDefaultService */,
+				1E26230C2AE3EAB90092FC6A /* NetworkService */,
 				1EFE9D432ACECDA900AF3E32 /* HW_3_OTUS_2023App.swift */,
 				1EFE9D452ACECDA900AF3E32 /* ContentView.swift */,
 				1EFE9D472ACECDAA00AF3E32 /* Assets.xcassets */,
-				1EFE9D492ACECDAA00AF3E32 /* Preview Content */,
+				1E2623062AE3E3930092FC6A /* ViewModel */,
+				1E2623052AE3E3710092FC6A /* DependencyInjection */,
 			);
 			path = HW_3_OTUS_2023;
-			sourceTree = "<group>";
-		};
-		1EFE9D492ACECDAA00AF3E32 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				1EFE9D4A2ACECDAA00AF3E32 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +138,10 @@
 			dependencies = (
 			);
 			name = HW_3_OTUS_2023;
+			packageProductDependencies = (
+				1E2623102AE3F0180092FC6A /* NetworkService */,
+				1EBA40172AE417A400046CB2 /* UserDefaultService */,
+			);
 			productName = HW_3_OTUS_2023;
 			productReference = 1EFE9D402ACECDA900AF3E32 /* HW_3_OTUS_2023.app */;
 			productType = "com.apple.product-type.application";
@@ -125,7 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1EFE9D4B2ACECDAA00AF3E32 /* Preview Assets.xcassets in Resources */,
+				1EBA40152AE413A100046CB2 /* Preview Assets.xcassets in Resources */,
 				1EFE9D482ACECDAA00AF3E32 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2622D42AE3D3620092FC6A /* ServiceLocatorConfiguration.swift in Sources */,
+				1E6929C62ADDA33100286ED0 /* ServiceLoactor.swift in Sources */,
 				1EFE9D462ACECDA900AF3E32 /* ContentView.swift in Sources */,
+				1E26230F2AE3EE9C0092FC6A /* RentCarModel.swift in Sources */,
 				1EFE9D442ACECDA900AF3E32 /* HW_3_OTUS_2023App.swift in Sources */,
+				1E2623082AE3E3A20092FC6A /* RentViewModel.swift in Sources */,
+				1E2622D22AE3D0420092FC6A /* InjectedWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +403,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E2623102AE3F0180092FC6A /* NetworkService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = NetworkService;
+		};
+		1EBA40172AE417A400046CB2 /* UserDefaultService */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UserDefaultService;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1EFE9D382ACECDA900AF3E32 /* Project object */;
 }

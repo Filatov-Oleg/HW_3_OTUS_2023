@@ -9,6 +9,11 @@ import SwiftUI
 
 @main
 struct HW_3_OTUS_2023App: App {
+    
+    init() {
+        ServiceLocatorConfiguration.shared.createServices()
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
